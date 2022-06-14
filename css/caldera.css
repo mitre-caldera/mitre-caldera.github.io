@@ -102,7 +102,7 @@ nav {
 
 .message-banner {
   padding: 15px;
-  background-color: darkred;
+  background-image: linear-gradient(to right, #8B0000, #191970)
 }
 .message-banner a {
   color: white;

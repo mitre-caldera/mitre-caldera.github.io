@@ -141,6 +141,10 @@ nav {
   background-image: -webkit-linear-gradient(315deg, #1f1f1f calc(100% - 20px), #191970 200px);
   border: 1px solid #191970;
 }
+.use-case.center {
+  background-image: -webkit-linear-gradient(315deg, #1f1f1f calc(100% - 20px), ##8711ba 200px);
+  border: 1px solid ##8711ba;
+}
 
 
 

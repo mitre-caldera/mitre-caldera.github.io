@@ -116,6 +116,10 @@ nav {
   color: white !important;
 }
 
+.navbar-menu {
+  margin-right: 40px;
+}
+
 .red-blue-box {
   background: black;
   border-radius: 2px;
@@ -146,9 +150,17 @@ nav {
   border: 1px solid #8711ba;
 }
 
+.home-section {
+  margin-top: 70px;
+}
 
+#coalfire-logo {
+  width: 40%;
+}
 
-
+.benefactor-logos {
+  margin-top: 30px;
+}
 
 
 

@@ -1,5 +1,5 @@
 body {
-    background-image: url('../../img/header-opaque-40.png');
+    background-image: url('../../img/header-opaque-20.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -24,5 +24,5 @@ body {
 }
 
 #support {
-    margin-top: 190px;
+    margin-top: 100px;
 }

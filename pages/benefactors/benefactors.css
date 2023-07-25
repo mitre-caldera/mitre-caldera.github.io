@@ -1,0 +1,30 @@
+body {
+    background-image: url('../../img/header-opaque-20.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /* display: flex;
+    flex-flow: column; */
+    /* opacity: 0.5; */
+  }
+
+
+.footer {
+    /* position: fixed; */
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 200px;
+}
+
+.benefactor-logos {
+    margin-top: 30px;
+  }
+
+.benefactor-logo {
+    width: 50%;
+}
+
+#support {
+    margin-top: 70px;
+}

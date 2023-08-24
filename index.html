@@ -3,13 +3,7 @@
   <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZDPZDB8Y8E"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){window.dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-ZDPZDB8Y8E');
-    </script>
+    <script src="./index.js"></script>
 
     <meta charset="utf-8">
     <meta language="english">
@@ -34,21 +28,26 @@
       <div class="navbar-brand">
         <a class="navbar-item brand">
           <img src="img/MITRE-Logo-CALDERA.png" alt="CALDERA Text Logo">
+          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
         </a>
       </div>
-      <div class="navbar-menu">
+      <div class="navbar-menu" id="navMenu">
         <div class="navbar-start"></div>
         <div class="navbar-end">
-          <div class="navbar-item">
+          <div class="navbar-item main-item-color">
             <a href="https://github.com/mitre/caldera">GitHub</a>
           </div>
-          <div class="navbar-item">
+          <div class="navbar-item alt-item-color">
             <a href="https://caldera.readthedocs.io/en/latest/">Documentation</a>
           </div>
-          <div class="navbar-item">
+          <div class="navbar-item main-item-color">
             <a href="https://medium.com/@mitrecaldera/">Blog</a>
           </div>
-          <div class="navbar-item">
+          <div class="navbar-item alt-item-color">
             <a href="./pages/benefactors/benefactors.html">Benefactors</a>
           </div>
         </div>

@@ -120,6 +120,30 @@ nav {
   margin-right: 40px;
 }
 
+
+.navbar-menu.is-active {
+  background-color: black;
+}
+
+a {
+  display: block;
+}
+
+a.fill-div {
+  display: block;
+  height: 100%;
+  width: 100%;
+  text-decoration: none;
+}
+
+.main-menu-color {
+  background-color: #121212;
+}
+
+.alt-menu-color {
+  background-color: #1c1c1c;
+}
+
 .red-blue-box {
   background: black;
   border-radius: 2px;

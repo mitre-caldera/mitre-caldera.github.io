@@ -22,9 +22,12 @@ body {
   }
 
 .benefactor-logo {
-    width: 50%;
+    width: 49%;
+    display: inline-block;
+    padding-left: 2em;
+    padding-right: 2em;
 }
 
 #support {
-    margin-top: 70px;
+    margin-top: 50px;
 }

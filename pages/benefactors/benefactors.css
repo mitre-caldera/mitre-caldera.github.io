@@ -19,6 +19,7 @@ body {
 
 .benefactor-logos {
     margin-top: 30px;
+    text-align: center;
   }
 
 .benefactor-logo {
@@ -28,6 +29,11 @@ body {
     padding-right: 2em;
 }
 
+.benefactor-logo img {
+    max-height: 100px;
+    margin-bottom: 20px;
+}
+
 #support {
-    margin-top: 50px;
+    margin-top: 30px;
 }
